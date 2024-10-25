@@ -10,31 +10,30 @@
 <body>
     <div id="socials-container">
         <div id="socials-logos-container">
-            <div class="socials" id="facebook">
+            <a href="#" class="socials" id="facebook">
                 <i class="fab fa-facebook-f"></i>
-            </div>
-            <div class="socials" id="twitter">
+            </a>
+            <a href="#" class="socials" id="twitter">
                 <i class="fab fa-twitter"></i>
-            </div>
-            <div class="socials"><span>English</span></div>
-            <div class="socials"><span>MyPage</span></div>
-            <div class="socials"><span>Logout</span></div>
+            </a>
+            <a href="#" class="socials">English</a>
+            <a href="#" class="socials">My Page</a>
+            <a href="#" class="socials">Logout</a>
         </div>
     </div>
 
     <header>
         <div id="header-divs-container">
-            <div id="logo-container">
-                <div><span>Web Dev Bootcamp</span></div>
+            <div id="logo-container">Web Dev Bootcamp
             </div>
-            <div id="header-links">
-                <div class="header-links-class"><span>About</span></div>
-                <div class="header-links-class"><span>Program</span></div>
-                <div class="header-links-class"><span>Join</span></div>
-                <div class="header-links-class"><span>Sponsor</span></div>
-                <div class="header-links-class"><span>News</span></div>
-                <div class="header-links-class"><span>CC Campain</span></div>
-            </div>
+            <nav id="header-links">
+                <a href="#" class="header-links-class">About</a>
+                <a href="#" class="header-links-class">Program</a>
+                <a href="#" class="header-links-class">Join</a>
+                <a href="#" class="header-links-class">Sponsor</a>
+                <a href="#" class="header-links-class">News</a>
+                <a href="#" class="header-links-class" id="cc-campaign">CC Campaign</a>
+            </nav>
         </div>
     </header>
 
@@ -50,9 +49,89 @@
     </div>
 
     <div id="main-program-container">
-        <div id="main-program-name">Main Program</div>
-        <div id="main-program-cards-container"></div>
-        <div id="see-more"></div>
+        <h2 id="main-program-name">Main Program</h2>
+        <div id="main-program-cards-container">
+            <div class="main-program-cards">
+                <div class="card-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#EC5242" width="24" height="24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                    </svg>
+                </div>
+                <h3 class="card-title">Lecture</h3>
+                <p class="card-para">Listen to the speakers from various countries about the messages of sharing and opening.</p>
+            </div>
+            <div class="main-program-cards">
+                <div class="card-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#EC5242" width="24" height="24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+                    </svg>
+                </div>
+                <h3 class="card-title">CC Exhibition</h3>
+                <p class="card-para">Appreciate various creations applying CC license of artists, organized from Art Center Nabi.</p>
+            </div>
+            <div class="main-program-cards">
+                <div class="card-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#EC5242" width="24" height="24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M21 6h-2v9H6v2c0-.55-.45-1-1-1h11l4 4V7c0-.55-.45-1-1-1zm-4 6V3c0-.55-.45-1-1-1H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1z"/>
+                    </svg>
+                </div>
+                <h3 class="card-title">Forum</h3>
+                <p class="card-para">Have the time to share your thoughts and opinions with experts for each topic.</p>
+            </div>
+            <div class="main-program-cards">
+                <div class="card-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#EC5242" width="24" height="24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/>
+                    </svg>
+                </div>
+                <h3 class="card-title">Workshop</h3>
+                <p class="card-para">Try creating your own work using open source license rather than just watching at it.</p>
+            </div>
+            <div class="main-program-cards">
+                <div class="card-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#EC5242" width="24" height="24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M16 17.01V10h-2v7.01h-3L15 21l4-3.99h-3zM9 3L5 6.99h3V14h2V6.99h3L9 3z"/>
+                    </svg>
+                </div>
+                <h3 class="card-title">CC Ignite</h3>
+                <p class="card-para">Get opportunities to network with CC affiliates around the world, also after the summit.</p>
+            </div>
+        </div>
+        <a href="#" id="see-more">SEE THE WHOLE PROGRAM</a>
     </div>
+
+    <section id="featured-speakers">
+        <h2 class="section-title">Featured Speakers</h2>
+        <div id="speakers-container"></div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h3 class="partner-title">Partner</h3>
+            <div class="partner-logos">
+                <img src="mozilla.png" alt="Mozilla">
+                <img src="google.png" alt="Google">
+                <img src="naver-logo.png" alt="NAVER">
+                <img src="kakao.png" alt="daumkakao">
+                <img src="airbnbpng" alt="airbnb">
+            </div>
+        </div>
+    </footer>
+
+    <div class="creative-commons-section">
+        <img src="image.png" alt="Creative Commons Korea">
+        <div class="creative-commons-text">
+            <p>2015 Creative Commons Korea. Some Rights Reserved.</p>
+            <p>달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다.</p>
+            <p>자세히 알고 싶으시면 <a href="http://creativecommons.org/licenses/by/2.0/kr/">http://creativecommons.org/licenses/by/2.0/kr/</a>을 보세요.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
